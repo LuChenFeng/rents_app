@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/tabBar/index/index",
+    "pages/tabBar/news/news",
+    "pages/tabBar/mine/mine",
+    "pages/index/haveRoom/haveRoom",
+    "pages/index/findRoom/findRoom",
+    "pages/index/rentedRomm/rentedRomm",
+    "pages/index/lookForTenant/lookForTenant",
+    "pages/index/extKnowledge/extKnowledge",
+    "pages/index/forum/forum",
+    "pages/index/submitForum/submitForum",
+    "pages/index/costSharing/costSharing",
+    "pages/index/costSharingGear/costSharingGear",
+    "pages/index/cleaning/cleaning",
+    "pages/news/appointment/appointment"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "color": "#8F8F94",
+    "selectedColor": "#f33e54",
+    "list": [
+      {
+        "pagePath": "pages/tabBar/index/index",
+        "iconPath": "static/img/tabbar/home.png",
+        "selectedIconPath": "static/img/tabbar/homeactive.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tabBar/news/news",
+        "iconPath": "static/img/tabbar/news.png",
+        "selectedIconPath": "static/img/tabbar/newsactive.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/tabBar/mine/mine",
+        "iconPath": "static/img/tabbar/me.png",
+        "selectedIconPath": "static/img/tabbar/meactive.png",
+        "text": "我"
+      }
+    ]
+  },
+  "nvueCompiler": "weex",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "rentsApp",
+  "compilerVersion": "2.2.1",
+  "usingComponents": {
+    "page-head": "/components/page-head",
+    "page-foot": "/components/page-foot",
+    "u-link": "/components/uLink"
+  }
+}

@@ -1,0 +1,1 @@
+<view class="bubble" style="{{'float:'+(isSelf)+';'}}"><block><rich-text nodes="{{messageText}}"></rich-text></block></view>

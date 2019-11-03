@@ -1,0 +1,11 @@
+.head{	
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+.headImg {
+	height: 20vh;
+	width: 20vh;
+	border-radius: 70%;
+	margin-left: -5vw;
+}

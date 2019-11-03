@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "资料设置",
+  "usingComponents": {
+    "dy-date": "/components/dy-Date/dy-Date"
+  }
+}

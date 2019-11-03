@@ -1,0 +1,66 @@
+/* 上部分的两个 */
+.rowUpperList1,
+.rowUpperList2 {
+	width: 50%;
+	box-shadow: 0 -1px 1px 0px rgb(185, 181, 181) inset;
+}
+
+.rowUpperList1 {
+	background-color: #fbd6d5;
+	margin-right: 1%;
+}
+
+.rowUpperList2 {
+	background-color: #d6e0fb;
+	margin-left: 1%;
+}
+
+.upperText1 {
+	color: #fb797e;
+}
+
+.upperText2 {
+	color: #5c87f3;
+}
+
+/* 下部分                 -----------                 */
+
+.columnBelowList1,
+.columnBelowList2,
+.columnBelowList3 {
+	/* background-color: #fafafa; */
+}
+
+.belowStripColor1 {
+	background-color: #469f94;
+}
+
+.belowStripColor2 {
+	background-color: #ef4058;
+}
+
+.belowStripColor3 {
+	background-color: #70a7c1;
+}
+
+/* 登入 */
+.hello {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+}
+
+.title {
+	color: #8f8f94;
+	margin-top: 50upx;
+}
+
+.ul {
+	font-size: 30upx;
+	color: #8f8f94;
+	margin-top: 50upx;
+}
+
+.ul>view {
+	line-height: 50upx;
+}

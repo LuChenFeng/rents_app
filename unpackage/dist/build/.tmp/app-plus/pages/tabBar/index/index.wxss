@@ -1,0 +1,29 @@
+/* 上部分的两个 */
+.rowUpperList1 {
+	background-color: #fbd6d5;
+}
+.rowUpperList2 {
+	background-color: #d6e0fb;
+}
+.upperText1{
+	color: #fb797e;
+}
+.upperText2{
+	color: #5c87f3;
+}
+/* 下部分                 -----------                 */
+.columnBelowList1,
+.columnBelowList2,
+.columnBelowList3 {
+	/* background-color: #fafafa; */
+}
+.belowStripColor1{
+	background-color: #469f94;
+}
+.belowStripColor2{
+	background-color: #ef4058;
+}
+.belowStripColor3{
+	background-color: #70a7c1;
+}
+

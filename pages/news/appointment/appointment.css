@@ -1,0 +1,43 @@
+/* 上部分的两个 */
+.rowUpper {
+	height: 5.6%;
+	margin-bottom: 3.9%;
+}
+
+.rowUpperList1 {
+	background-color: #FFFFFF;
+}
+
+.rowUpperList2 {
+	background-color: #f59393;
+}
+
+.upperText1 {
+	color: #000000;
+}
+
+.upperText2 {
+	color: #FFFFFF;
+}
+
+/* 下部分                 -----------                 */
+.columnBelowList {
+	background-color: #e5434f;
+}
+
+.columnBelowListView {
+	background-color: #fafafa;
+}
+
+.belowText {
+	color: #000000;
+}
+
+.belowTextSon {
+	color: #5E5E5E;
+}
+
+.sliderHeight {
+	height: 10vh;
+	margin-bottom: 4.9%;
+}

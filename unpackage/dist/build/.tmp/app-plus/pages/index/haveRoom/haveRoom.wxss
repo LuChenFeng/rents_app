@@ -1,0 +1,81 @@
+.page.data-v-c91f71ae {
+	position: absolute;
+	height: 100%;
+	margin-top: 0;
+}
+
+/* 上部分的两个 */
+.rowUpper.data-v-c91f71ae {
+	height: 6%;
+	margin-bottom: 10%;
+}
+.rowUpperList1.data-v-c91f71ae,
+.rowUpperList2.data-v-c91f71ae {
+	border-radius: 20%;
+}
+.rowUpperList1.data-v-c91f71ae {
+	background-color: #93aff5;
+}
+.rowUpperList2.data-v-c91f71ae {
+	background-color: #FFFFFF;
+}
+.upperIT.data-v-c91f71ae {
+	position: relative;
+	height: 80%;
+	width: 100%;
+}
+.upperText.data-v-c91f71ae {
+	position: relative;
+	text-align: center;
+	font-size: 2.5vh;
+}
+.upperText1.data-v-c91f71ae{
+	color: #3165e7;
+}
+.upperText2.data-v-c91f71ae{
+	color: #fb797e;
+}
+
+/* 下部分                 -----------                 */
+.columnBelow.data-v-c91f71ae {
+	height: auto;
+	margin-top: 0;
+}
+.columnBelowList.data-v-c91f71ae {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	height: 20%;
+	/* background-color: #fafafa; */
+	-webkit-box-shadow: 0 -1px 0 0 rgb(227, 220, 220) inset;
+	        box-shadow: 0 -1px 0 0 rgb(227, 220, 220) inset;
+	color: #93aff5;
+}
+.belowIcon.data-v-c91f71ae{
+	left: -6%;
+}
+.belowText.data-v-c91f71ae {
+	width: 60%;
+	font-size: 2.3vh;
+	color: #000000;
+	left: -10%;
+}
+.belowTextSon.data-v-c91f71ae{
+	font-size: 12px;
+	color: #5E5E5E;
+}
+.jianTou.data-v-c91f71ae {
+	position: relative;
+	height: auto;
+	width: 10%;
+	font-size: 20px;
+	color: #666666;
+	left: 10%;
+}
+.next.data-v-c91f71ae{
+	margin-top: 10%;
+	width: 50%;
+	background-color:#93aff5 ;
+}
+

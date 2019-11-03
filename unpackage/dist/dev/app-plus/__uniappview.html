@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+    <head>
+        <meta charset="UTF-8" />
+        <script>
+            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||
+                CSS.supports('top: constant(a)'))
+            document.write(
+                '<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+                (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+        </script>
+        <title>View</title>
+        <style>
+            * {
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            input[type="search"]::-webkit-search-cancel-button {
+                display: none;
+            }
+        </style>
+        <script>
+            var __wxConfig = {"debug":false,"appname":"rents_app","entryPagePath":"pages/tabBar/index/index.html","page":{"pages/tabBar/index/index.html":{"window":{"navigationBarTitleText":"首页","usingComponents":{"uni-icon":"/components/uni-icon/uni-icon"}}},"pages/tabBar/news/news.html":{"window":{"navigationBarTitleText":"消息","enablePullDownRefresh":true,"usingComponents":{"uni-icon":"/components/uni-icon/uni-icon","uni-swipe-action":"/components/uni-swipe-action/uni-swipe-action","uni-list":"/components/uni-list/uni-list","uni-list-item":"/components/uni-list-item/uni-list-item"}}},"pages/tabBar/mine/mine.html":{"window":{"titleNView":{"type":"transparent","titleColor":"#fff","backgroundColor":"#007AFF","buttons":[{"fontSrc":"/static/uni.ttf","text":"","width":"40px","fontSize":"28px","color":"#fff","background":"rgba(0,0,0,0)"}]},"usingComponents":{"uni-icon":"/components/uni-icon/uni-icon"}}},"pages/publicVue/report/report.html":{"window":{"navigationBarTitleText":"举报","usingComponents":{"uni-icon":"/components/uni-icon/uni-icon","uni-popup":"/components/uni-popup/uni-popup","mpvue-picker":"/components/mpvue-picker/mpvuePicker"}}},"pages/publicVue/userDetails/userDetails.html":{"window":{"navigationBarTitleText":"室友主页","usingComponents":{"mpvue-picker":"/components/mpvue-picker/mpvuePicker","uni-card":"/components/uni-card/uni-card","uni-tag":"/components/uni-tag/uni-tag","uni-icon":"/components/uni-icon/uni-icon","uni-popup":"/components/uni-popup/uni-popup"}}},"pages/login/login.html":{"window":{"navigationBarTitleText":"登入","usingComponents":{"m-input":"/components/m-input"}}},"pages/login/reg/reg.html":{"window":{"navigationBarTitleText":"注册","usingComponents":{"m-input":"/components/m-input"}}},"pages/login/pwd/pwd.html":{"window":{"navigationBarTitleText":"找回密码","usingComponents":{"m-input":"/components/m-input"}}},"pages/index/haveRoom/haveRoom.html":{"window":{"navigationBarTitleText":"发布","usingComponents":{"uni-icon":"/components/uni-icon/uni-icon"}}},"pages/index/findRoom/findRoom.html":{"window":{"navigationBarTitleText":"发布","usingComponents":{"uni-icon":"/components/uni-icon/uni-icon"}}},"pages/index/rentedRomm/rentedRomm.html":{"window":{"navigationBarTitleText":"租房后","usingComponents":{"uni-icon":"/components/uni-icon/uni-icon"}}},"pages/index/lookForTenant/lookForTenant.html":{"window":{"navigationBarTitleText":"找租客","usingComponents":{"page-head":"/components/page-head","uni-popup":"/components/uni-popup/uni-popup"}}},"pages/index/extKnowledge/extKnowledge.html":{"window":{"navigationBarTitleText":"租房小常识","usingComponents":{}}},"pages/index/forum/forum.html":{"window":{"navigationBarTitleText":"论坛中心","enablePullDownRefresh":true,"onReachBottomDistance":50,"titleNView":{"buttons":[{"text":"北京市","fontSize":"14","select":true,"width":"auto"}],"searchInput":{"backgroundColor":"#fff","borderRadius":"6px","placeholder":"搜索","disabled":true}},"usingComponents":{"mpvue-picker":"/components/mpvue-picker/mpvuePicker","uni-card":"/components/uni-card/uni-card","uni-tag":"/components/uni-tag/uni-tag","uni-icon":"/components/uni-icon/uni-icon"}}},"pages/index/forumDetails/forumDetails.html":{"window":{"navigationBarTitleText":"帖子详情","usingComponents":{"uni-tag":"/components/uni-tag/uni-tag","uni-icon":"/components/uni-icon/uni-icon","uni-popup":"/components/uni-popup/uni-popup"}}},"pages/index/forum/detail/detail.html":{"window":{"titleNView":{"searchInput":{"backgroundColor":"#fff","borderRadius":"6px","placeholder":"搜索"}},"usingComponents":{"uni-icon":"/components/uni-icon/uni-icon"}}},"pages/index/submitForum/submitForum.html":{"window":{"navigationBarTitleText":"发帖子","usingComponents":{"uni-popup":"/components/uni-popup/uni-popup","uni-icon":"/components/uni-icon/uni-icon"}}},"pages/index/costSharing/costSharing.html":{"window":{"navigationBarTitleText":"费用分摊","titleNView":{"titleColor":"#000","backgroundColor":"#FFFFFF","buttons":[{"fontSrc":"/static/uni.ttf","text":"","width":"40px","fontSize":"28px","color":"#000","background":"rgba(0,0,0,0)"}]},"usingComponents":{"uni-calendar":"/components/uni-calendar/uni-calendar"}}},"pages/index/costSharingGear/costSharingGear.html":{"window":{"navigationBarTitleText":"费用设置","usingComponents":{"uni-icon":"/components/uni-icon/uni-icon","uni-drawer":"/components/uni-drawer/uni-drawer","uni-list":"/components/uni-list/uni-list","uni-list-item":"/components/uni-list-item/uni-list-item","uni-popup":"/components/uni-popup/uni-popup","mpvue-picker":"/components/mpvue-picker/mpvuePicker"}}},"pages/index/cleaning/cleaning.html":{"window":{"navigationBarTitleText":"公共卫生","usingComponents":{}}},"pages/news/appointment/appointment.html":{"window":{"navigationBarTitleText":"预约","usingComponents":{"uni-icon":"/components/uni-icon/uni-icon","uni-swipe-action":"/components/uni-swipe-action/uni-swipe-action","uni-list":"/components/uni-list/uni-list","uni-list-item":"/components/uni-list-item/uni-list-item"}}},"pages/news/findRoommate/findRoommate.html":{"window":{"navigationBarTitleText":"找室友","titleNView":{"titleColor":"#000","backgroundColor":"#FFFFFF","buttons":[{"fontSrc":"/static/uni.ttf","text":"","width":"40px","fontSize":"28px","color":"#000","background":"rgba(0,0,0,0)"}]},"usingComponents":{"uni-card":"/components/uni-card/uni-card","uni-tag":"/components/uni-tag/uni-tag"}}},"pages/news/fillInfor/fillInfor.html":{"window":{"navigationBarTitleText":"我的特点","usingComponents":{"mpvue-picker":"/components/mpvue-picker/mpvuePicker","uni-grid":"/components/uni-grid/uni-grid","uni-grid-item":"/components/uni-grid-item/uni-grid-item"}}},"pages/news/idealHouse/idealHouse.html":{"window":{"navigationBarTitleText":"理想房子","usingComponents":{}}},"pages/chat/chatRoom.html":{"window":{"navigationBarTitleText":"","usingComponents":{"chat-message":"/components/chat-message/chat-message","uni-popup":"/components/uni-popup/uni-popup"}}},"pages/mine/mineInfo/mineInfo.html":{"window":{"navigationBarTitleText":"资料设置","usingComponents":{"dy-date":"/components/dy-Date/dy-Date"}}},"pages/mine/minePosts/minePosts.html":{"window":{"navigationBarTitleText":"发布历史","usingComponents":{"mpvue-picker":"/components/mpvue-picker/mpvuePicker","uni-card":"/components/uni-card/uni-card","uni-tag":"/components/uni-tag/uni-tag","uni-icon":"/components/uni-icon/uni-icon","uni-popup":"/components/uni-popup/uni-popup"}}}},"global":{"window":{"navigationBarTextStyle":"black","navigationBarBackgroundColor":"#FFFFFF"}},"tabBar":{"color":"#8F8F94","selectedColor":"#f33e54","backgroundColor":"#FFFFFF","borderStyle":"black","list":[{"pagePath":"pages/tabBar/index/index.html","iconPath":"static/img/tabbar/home.png","selectedIconPath":"static/img/tabbar/homeactive.png","text":"首页"},{"pagePath":"pages/tabBar/news/news.html","iconPath":"static/img/tabbar/news.png","selectedIconPath":"static/img/tabbar/newsactive.png","text":"消息"},{"pagePath":"pages/tabBar/mine/mine.html","iconPath":"static/img/tabbar/me.png","selectedIconPath":"static/img/tabbar/meactive.png","text":"我"}],"position":"bottom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/tabBar/index/index","pages/tabBar/news/news","pages/tabBar/mine/mine","pages/publicVue/report/report","pages/publicVue/userDetails/userDetails","pages/login/login","pages/login/reg/reg","pages/login/pwd/pwd","pages/index/haveRoom/haveRoom","pages/index/findRoom/findRoom","pages/index/rentedRomm/rentedRomm","pages/index/lookForTenant/lookForTenant","pages/index/extKnowledge/extKnowledge","pages/index/forum/forum","pages/index/forumDetails/forumDetails","pages/index/forum/detail/detail","pages/index/submitForum/submitForum","pages/index/costSharing/costSharing","pages/index/costSharingGear/costSharingGear","pages/index/cleaning/cleaning","pages/news/appointment/appointment","pages/news/findRoommate/findRoommate","pages/news/fillInfor/fillInfor","pages/news/idealHouse/idealHouse","pages/chat/chatRoom","pages/mine/mineInfo/mineInfo","pages/mine/minePosts/minePosts"],"nvueCompiler":"weex","renderer":"auto","splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"compilerVersion":"2.3.7","usingComponents":{"page-head":"/components/page-head","page-foot":"/components/page-foot","u-link":"/components/uLink"}}
+        </script>
+        <script>
+            var __id__ = '';
+            window.__dispatchGenerateFunc__ = function(page) {
+                __id__ = page;
+                document.title = page;
+                // window.history.pushState('', '', page);
+                var wxss = page.replace('.html', '.wxss')
+                if (
+                    typeof __wxAppCode__ !== 'undefined' &&
+                    __wxAppCode__.hasOwnProperty(wxss)
+                ) {
+                    var setCssToHead = __wxAppCode__[wxss]
+                    typeof setCssToHead === 'function' && setCssToHead()
+                    document.dispatchEvent(new CustomEvent("generateFuncReady", {
+                        detail: {
+                            generateFunc: $gwx(page.replace('.html', '.wxml'))
+                        }
+                    }));
+                } else {
+                    plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
+                }
+            };
+        </script>
+        <script src="__uniappes6.js"></script>
+        <script src="uniapp://ready"></script>
+    </head>
+
+    <body>
+        <div></div>
+    </body>
+
+</html>

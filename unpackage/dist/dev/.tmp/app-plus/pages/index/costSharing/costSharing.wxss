@@ -1,0 +1,19 @@
+
+.reckonbtn.data-v-68e6eb9d {
+	background-color: #FFCCCC;
+	color: #FFFFFF;
+}
+
+/* 并状图 */
+.qiun-charts.data-v-68e6eb9d {
+	width: 750rpx;
+	height: 500rpx;
+	background-color: #FFFFFF;
+	    position: relative;
+}
+.charts.data-v-68e6eb9d {
+	width: 750rpx;
+	height: 500rpx;
+	background-color: #FFFFFF;
+}
+

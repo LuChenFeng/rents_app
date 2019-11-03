@@ -1,0 +1,27 @@
+{
+  "navigationBarTitleText": "论坛中心",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 50,
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "北京市",
+        "fontSize": "14",
+        "select": true,
+        "width": "auto"
+      }
+    ],
+    "searchInput": {
+      "backgroundColor": "#fff",
+      "borderRadius": "6px",
+      "placeholder": "搜索",
+      "disabled": true
+    }
+  },
+  "usingComponents": {
+    "mpvue-picker": "/components/mpvue-picker/mpvuePicker",
+    "uni-card": "/components/uni-card/uni-card",
+    "uni-tag": "/components/uni-tag/uni-tag",
+    "uni-icon": "/components/uni-icon/uni-icon"
+  }
+}

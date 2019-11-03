@@ -1,0 +1,20 @@
+{
+  "navigationBarTitleText": "费用分摊",
+  "titleNView": {
+    "titleColor": "#000",
+    "backgroundColor": "#FFFFFF",
+    "buttons": [
+      {
+        "fontSrc": "/static/uni.ttf",
+        "text": "",
+        "width": "40px",
+        "fontSize": "28px",
+        "color": "#000",
+        "background": "rgba(0,0,0,0)"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-calendar": "/components/uni-calendar/uni-calendar"
+  }
+}

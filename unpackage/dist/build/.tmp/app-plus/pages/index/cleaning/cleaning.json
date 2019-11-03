@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "公共卫生",
+  "usingComponents": {
+    "uni-calendar": "/components/uni-calendar/uni-calendar"
+  }
+}

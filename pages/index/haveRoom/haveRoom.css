@@ -1,0 +1,84 @@
+.page {
+	position: absolute;
+	height: 100%;
+	margin-top: 0;
+}
+
+/* 上部分的两个 */
+.rowUpper {
+	height: 6%;
+	margin-bottom: 10%;
+}
+
+.rowUpperList1,
+.rowUpperList2 {
+	width: 50%;
+	/* border-radius: 20%; */
+}
+
+.rowUpperList1 {
+	background-color: #93aff5;
+}
+
+.rowUpperList2 {
+	background-color: #FFFFFF;
+}
+
+.upperIT {
+	position: relative;
+	height: 80%;
+	width: 100%;
+}
+
+.upperText {
+	position: relative;
+	text-align: center;
+	font-size: 2.5vh;
+}
+
+.upperText1{
+	color: #3165e7;
+}
+.upperText2{
+	color: #fb797e;
+}
+/* 下部分                 -----------                 */
+.columnBelow {
+	height: auto;
+	margin-top: 0;
+}
+
+.columnBelowList {
+	display: flex;
+	height: 20%;
+	/* background-color: #fafafa; */
+	box-shadow: 0 -1px 0 0 rgb(227, 220, 220) inset;
+	color: #93aff5;
+}
+.belowIcon{
+	left: -6%;
+}
+
+.belowText {
+	width: 60%;
+	font-size: 2.3vh;
+	color: #000000;
+	left: -10%;
+}
+.belowTextSon{
+	font-size: 12px;
+	color: #5E5E5E;
+}
+.jianTou {
+	position: relative;
+	height: auto;
+	width: 10%;
+	font-size: 20px;
+	color: #666666;
+	left: 10%;
+}
+.next{
+	margin-top: 10%;
+	width: 50%;
+	background-color:#93aff5 ;
+}

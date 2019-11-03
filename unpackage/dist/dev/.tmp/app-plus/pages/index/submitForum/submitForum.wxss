@@ -1,0 +1,111 @@
+.page.data-v-ad86bc5e {
+	position: absolute;
+	height: 89%;
+}
+
+/* 下部分                 -----------                 */
+.columnBelow.data-v-ad86bc5e {
+	height: 100%;
+	margin-top: 0;
+}
+.columnBelowList.data-v-ad86bc5e {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	height: 8%;
+	background-color: #FFFFFF;
+	-webkit-box-shadow: 0 -1px 0 0 rgb(227, 220, 220) inset;
+	        box-shadow: 0 -1px 0 0 rgb(227, 220, 220) inset;
+	color: #469f94;
+}
+.columnBelowListTA.data-v-ad86bc5e {
+	min-height: 20%;
+	margin-bottom: 0;
+}
+.columnBelowListTAL.data-v-ad86bc5e {
+	min-height: 8%;
+	height: auto;
+}
+.columnBelowListS.data-v-ad86bc5e {
+	min-height: 30%;
+}
+.columnBelowListView.data-v-ad86bc5e {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	height: 70%;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.belowIcon.data-v-ad86bc5e {
+	position: relative;
+	height: auto;
+	width: 14%;
+	left: 2%;
+    font-size: 2.2vh;
+}
+.belowText.data-v-ad86bc5e {
+	position: relative;
+	left: 3%;
+	height: auto;
+	min-height: 10%;
+	padding: 0;
+	width: 100%;
+	font-size: 2.2vh;
+	color: #000000;
+}
+.next.data-v-ad86bc5e {
+	margin-top: 10%;
+	width: 50%;
+	background-color: #fb9da0;
+}
+
+/* 滚动条 */
+.scroll-Y.data-v-ad86bc5e {
+	height: 20vh;
+}
+.scroll-view_H.data-v-ad86bc5e {
+	white-space: nowrap;
+	width: 100%;
+}
+.scroll-view-item.data-v-ad86bc5e {
+	height: 150rpx;
+	/* line-height: 300upx; */
+	text-align: center;
+	font-size: 36rpx;
+}
+.scroll-view-item_H.data-v-ad86bc5e {
+	display: inline-block;
+	width: 100%;
+	height: 150rpx;
+	/* line-height: 300upx; */
+	text-align: center;
+	font-size: 36rpx;
+}
+..uni-uploader__input-box.data-v-ad86bc5e{
+	height: 10vh;
+	width: 10vh;
+}
+.next.data-v-ad86bc5e {
+	margin-top: 10%;
+	width: 50%;
+	background-color: #469f94;
+}
+

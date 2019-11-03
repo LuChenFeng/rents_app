@@ -1,0 +1,150 @@
+*,
+::after,
+::before {
+	box-sizing: content-box;
+}
+
+.page {
+	position: absolute;
+	height: 100%;
+}
+
+
+/* 上部分的两个 */
+.rowUpper {
+	height: 40%;
+	margin-bottom: 10%;
+}
+
+.rowUpperList1,
+.rowUpperList2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 49%;
+	border-radius: 5%;
+	box-shadow: 0 -1px 1px 0px rgb(185, 181, 181) inset;
+}
+
+.rowUpperList1 {
+	margin-right: 1%;
+	/* background-color: #ffb2b5; */
+	background-color: #ffccce;
+}
+
+.rowUpperList2 {
+	margin-left: 1%;
+	/* background-color: #abc0f5; */
+	background-color: #c4d2f5;
+}
+
+.upperIT {
+	position: relative;
+	height: 50%;
+	width: 50%;
+}
+
+.upperImg {
+	display: flex;
+	opacity:0.60;
+	height: 70%;
+	width: 100%;
+}
+
+.upperText {
+	position: relative;
+	height: 30%;
+    width: 95%;
+    margin-left: 10%;
+}
+
+.upperText1{
+	color: #fb797e;
+}
+.upperText2{
+	color: #5c87f3;
+}
+
+/* 下部分                 -----------                 */
+.columnBelow {
+	height: 45%;
+	margin-bottom: 15%;
+}
+
+.columnBelowList1,
+.columnBelowList2,
+.columnBelowList3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 30%;
+	background-color: #fafafa;
+	box-shadow: 0 -2px 0 0 rgb(227, 220, 220) inset;
+
+}
+
+.columnBelowListView {
+	display: flex;
+	width: 100%;
+	height: 50%;
+	justify-content: center;
+	align-items: center;
+}
+
+.belowStrip {
+	position: relative;
+	left: -13.5%;
+	height: 100%;
+	width: 1%;
+}
+
+.belowIcon {
+	position: relative;
+	height: auto;
+	width: 12%;
+	left: -10%;
+	font-size: 20px;
+}
+
+.belowText {
+	position: relative;
+	left: -12%;
+	height: auto;
+	width: 50%;
+	font-size: 15px;
+
+}
+
+.jianTou {
+	position: relative;
+	height: auto;
+	width: 10%;
+	font-size: 20px;
+	color: #666666;
+	left: 15%;
+}
+
+.belowStripColor1 {
+	background-color: #469f94;
+}
+
+.belowIconColor1 {
+	color: #469f94;
+}
+
+.belowStripColor2 {
+	background-color: #ef4058;
+}
+
+.belowIconColor2 {
+	color: #ef4058;
+}
+
+.belowStripColor3 {
+	background-color: #70a7c1;
+}
+
+.belowIconColor3 {
+	color: #70a7c1;
+}

@@ -1,0 +1,291 @@
+{
+	"pages": [
+
+		{
+			"path": "pages/tabBar/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/tabBar/news/news",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/tabBar/mine/mine",
+			"style": {
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent",
+						"titleColor": "#fff",
+						"backgroundColor": "#007AFF",
+						"buttons": [{
+							"fontSrc": "/static/uni.ttf",
+							"text": "\ue537",
+							"width": "40px",
+							"fontSize": "28px",
+							"color": "#fff",
+							"background": "rgba(0,0,0,0)"
+						}]
+					}
+				}
+			}
+		},
+		// 通用页面-------------------------------------
+		{
+			"path": "pages/publicVue/report/report",
+			"style": {
+				"navigationBarTitleText": "举报"
+			}
+		},
+		{
+			"path": "pages/publicVue/userDetails/userDetails",
+			"style": {
+				"navigationBarTitleText": "室友主页"
+			}
+		},
+		// 登入相关页面------------------------------
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登入"
+			}
+		},
+		{
+			"path": "pages/login/reg/reg",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/login/pwd/pwd",
+			"style": {
+				"navigationBarTitleText": "找回密码"
+			}
+		},
+		// 首页上的页面-------------------------------------
+		{
+			"path": "pages/index/haveRoom/haveRoom",
+			"style": {
+				"navigationBarTitleText": "发布"
+			}
+		},
+		{
+			"path": "pages/index/findRoom/findRoom",
+			"style": {
+				"navigationBarTitleText": "发布"
+
+			}
+		},
+		{
+			"path": "pages/index/rentedRomm/rentedRomm",
+			"style": {
+				"navigationBarTitleText": "租房后"
+			}
+		},
+		{
+			"path": "pages/index/lookForTenant/lookForTenant",
+			"style": {
+				"navigationBarTitleText": "找租客"
+			}
+		},
+		{
+			"path": "pages/index/extKnowledge/extKnowledge",
+			"style": {
+				"navigationBarTitleText": "租房小常识"
+			}
+		},
+		{
+			"path": "pages/index/forum/forum",
+			"style": {
+				"navigationBarTitleText": "论坛中心",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50,
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "北京市",
+							"fontSize": "14",
+							"select": true,
+							"width": "auto"
+						}],
+						"searchInput": {
+							"backgroundColor": "#fff",
+							"borderRadius": "6px",
+							"placeholder": "搜索",
+							"disabled": true
+						}
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/index/forumDetails/forumDetails",
+			"style": {
+				"navigationBarTitleText": "帖子详情"
+
+			}
+		},
+		{
+			"path": "pages/index/forum/detail/detail",
+			"style": {
+				"app-plus": {
+					"titleNView": {
+
+						"searchInput": {
+							"backgroundColor": "#fff",
+							"borderRadius": "6px",
+							"placeholder": "搜索"
+						}
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/index/submitForum/submitForum",
+			"style": {
+				"navigationBarTitleText": "发帖子"
+			}
+		},
+		{
+			"path": "pages/index/costSharing/costSharing",
+			"style": {
+				"navigationBarTitleText": "费用分摊",
+				"app-plus": {
+					"titleNView": {
+
+						"titleColor": "#000",
+						"backgroundColor": "#FFFFFF",
+
+						"buttons": [{
+							"fontSrc": "/static/uni.ttf",
+							"text": "\ue502",
+							"width": "40px",
+							"fontSize": "28px",
+							"color": "#000",
+							"background": "rgba(0,0,0,0)"
+						}]
+
+					}
+				}
+			}
+		},
+
+		{
+			"path": "pages/index/costSharingGear/costSharingGear",
+			"style": {
+				"navigationBarTitleText": "费用设置"
+			}
+		},
+
+		{
+			"path": "pages/index/cleaning/cleaning",
+			"style": {
+				"navigationBarTitleText": "公共卫生"
+
+			}
+		},
+		// 消息上的页面------------------------------------------
+
+		{
+			"path": "pages/news/appointment/appointment",
+			"style": {
+				"navigationBarTitleText": "预约"
+			}
+		},
+		{
+			"path": "pages/news/findRoommate/findRoommate",
+			"style": {
+				"navigationBarTitleText": "找室友",
+				"app-plus": {
+					"titleNView": {
+
+						"titleColor": "#000",
+						"backgroundColor": "#FFFFFF",
+
+						"buttons": [{
+							"fontSrc": "/static/uni.ttf",
+							"text": "\ue400",
+							"width": "40px",
+							"fontSize": "28px",
+							"color": "#000",
+							"background": "rgba(0,0,0,0)"
+						}]
+
+					}
+				}
+			}
+		},
+
+		{
+			"path": "pages/news/fillInfor/fillInfor",
+			"style": {
+				"navigationBarTitleText": "我的特点"
+			}
+		},
+
+		{
+			"path": "pages/news/idealHouse/idealHouse",
+			"style": {
+				"navigationBarTitleText": "理想房子"
+			}
+		 },
+		 // 聊天室
+		{
+			"path": "pages/chat/chatRoom",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		// 个人资料设置
+		{
+			"path": "pages/mine/mineInfo/mineInfo",
+			"style": {
+				"navigationBarTitleText": "资料设置"
+			}
+		},
+		{
+			"path": "pages/mine/minePosts/minePosts",
+			"style": {
+				"navigationBarTitleText": "发布历史"
+			}
+		}
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#FFFFFF"
+		// "navigationBarTitleText": "uni-app",
+		// "navigationBarBackgroundColor": "#FFFFFF",
+		// "backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"color": "#8F8F94",
+		"selectedColor": "#f33e54",
+		"list": [{
+				"pagePath": "pages/tabBar/index/index",
+				"iconPath": "static/img/tabbar/home.png",
+				"selectedIconPath": "static/img/tabbar/homeactive.png",
+				"text": "首页"
+			},
+
+			{
+				"pagePath": "pages/tabBar/news/news",
+				"iconPath": "static/img/tabbar/news.png",
+				"selectedIconPath": "static/img/tabbar/newsactive.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/tabBar/mine/mine",
+				"iconPath": "static/img/tabbar/me.png",
+				"selectedIconPath": "static/img/tabbar/meactive.png",
+				"text": "我"
+			}
+		]
+	}
+}

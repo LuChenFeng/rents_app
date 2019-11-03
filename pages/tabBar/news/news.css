@@ -1,0 +1,105 @@
+
+/* 上部分的两个 */
+.rowUpper {
+	height: 6%;
+	margin-bottom: 4%;
+}
+
+.rowUpperList1,
+.rowUpperList2 {
+
+	width: 50%;
+
+
+}
+
+.rowUpperList1 {
+
+	background-color: #a2cae3;
+}
+
+.rowUpperList2 {
+
+	background-color: #FFFFFF;
+}
+
+.upperText {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	font-size: 2.5vh;
+}
+
+.upperText1 {
+	color: #FFFFFF;
+}
+
+.upperText2{
+    color: #000000;
+}
+
+/* 下部分                 -----------                 */
+.scroll-Y {
+	height: 90vh;
+}
+
+.columnBelowList {
+	display: flex;
+	height: 10vh;
+	width: 100%;
+	border-radius: 3%;
+	background-color: #89a5d4;
+	margin-bottom: 5%;
+	box-shadow: 0 0.3vh 0px rgb(187, 183, 183);
+
+}
+
+.columnBelowListView {
+	display: flex;
+	width: 97.5%;
+	height: 100%;
+	margin-left: 2.5%;
+	justify-content: center;
+	align-items: center;
+	background-color: #fafafa;
+	margin-bottom: 4%;
+}
+.uni-media-list-body{
+	height: 10vh;
+}
+.belowImg {
+	height: 7vh;
+	width: 7vh;
+	left: -2%;
+	border-radius: 6vh;
+    border: solid #a4a6a7 2px;
+}
+
+.belowText {
+	position: relative;
+	left: 4%;
+	height: auto;
+	width: 100%;
+	font-size: 3vh;
+
+	color: #000000;
+}
+
+.belowTextSon {
+	font-size: 2vh;
+	color: #5E5E5E;
+}
+
+
+/* 重写滑块高度 */
+.uni-swipe-action {
+	height: 10vh;
+}
+
+.sliderHeight {
+	height: 10vh;
+	margin-bottom: 5%;
+}
+
+

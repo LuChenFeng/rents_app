@@ -1,0 +1,29 @@
+.page.data-v-98384646{
+  /* background-color: #FAFAFA; */
+height: 90%;
+    top: 4%;
+}
+.columnBelow.data-v-98384646{height: 90%;}
+.columnBelowList1.data-v-98384646{
+
+    height: 20%;
+    width: 90%;
+    margin: 0 auto;
+    margin: 5% auto;
+    border-radius: 5%;
+    -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.columnBelowListColor1.data-v-98384646{
+	background-color: #FFFFCC;
+}
+.columnBelowListColor2.data-v-98384646{
+	background-color: #CCFFFF;
+}
+.columnBelowListColor3.data-v-98384646{
+	background-color: #FFCCCC;
+}
+.columnBelowListColor4.data-v-98384646{
+	background-color: #99CC99;
+}
+

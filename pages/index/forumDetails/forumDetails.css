@@ -1,0 +1,68 @@
+.page {
+
+	height: auto;
+}
+
+.uni-common-mt {
+	margin-top: 0;
+}
+
+.columnBelowList {
+	display: -webkit-box;
+	width: 100%;
+}
+
+.uni-media-list-logo {
+	height: 10vh;
+	width: 10vh;
+}
+
+.centerHeight {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.uni-media-list-body {
+	left: 2%;
+}
+
+.belowText,
+.belowTextSon {
+	left: 2%;
+}
+
+.belowText {
+	width: 100%;
+	height: auto;
+}
+
+.houseImg {
+	width: 33%;
+	float: left;
+	margin: 0;
+}
+
+.bottomselect {
+	position: fixed;
+	bottom: 0%;
+	height: 7%;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	background: #FFFFFF;
+}
+
+.bottomselectSon {
+	margin: 0 3vw;
+}
+
+.bottomselectSonBtn {
+	height: 60%;
+	/* border-radius: 40%; */
+	border: solid #FFCCCC 1px;
+	background-color: #FFcccc;
+	color: #3B4144;
+	margin: 0 3vw;
+	font-size: small;
+}

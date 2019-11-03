@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"rowUpper.",[1],"data-v-e7444b70{ -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }\n",],undefined,{path:"./pages/publicVue/report/report.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/publicVue/report/report.wxml') } }));

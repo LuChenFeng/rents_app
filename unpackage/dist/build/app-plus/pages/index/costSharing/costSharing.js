@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"reckonbtn.",[1],"data-v-638581f2 { background-color: #FFCCCC; color: #FFFFFF; }\n.",[1],"qiun-charts.",[1],"data-v-638581f2 { width: ",[0,750],"; height: ",[0,500],"; background-color: #FFFFFF; position: relative; }\n.",[1],"charts.",[1],"data-v-638581f2 { width: ",[0,750],"; height: ",[0,500],"; background-color: #FFFFFF; }\n",],undefined,{path:"./pages/index/costSharing/costSharing.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/index/costSharing/costSharing.wxml') } }));

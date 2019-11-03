@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "找租客",
+  "usingComponents": {
+    "uni-calendar": "/components/uni-calendar/uni-calendar"
+  }
+}

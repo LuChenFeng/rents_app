@@ -1,0 +1,21 @@
+
+
+.reckonbtn {
+	background-color: #FFCCCC;
+	color: #FFFFFF;
+}
+
+/* 并状图 */
+.qiun-charts {
+	width: 750upx;
+	height: 500upx;
+	background-color: #FFFFFF;
+	    position: relative;
+}
+
+.charts {
+	width: 750upx;
+	height: 500upx;
+	background-color: #FFFFFF;
+	 
+}

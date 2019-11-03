@@ -1,0 +1,197 @@
+{
+  "@platforms": [
+    "android",
+    "iPhone",
+    "iPad"
+  ],
+  "id": "__UNI__E9B75C8",
+  "name": "rents_app",
+  "version": {
+    "name": "1.0.0",
+    "code": "100"
+  },
+  "description": "找兴趣相投的室友一起快乐合租",
+  "launch_path": "__uniappview.html",
+  "developer": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "permissions": {
+    "UniNView": {
+      "description": "UniNView原生渲染"
+    }
+  },
+  "plus": {
+    "useragent": {
+      "value": "uni-app",
+      "concatenate": true
+    },
+    "splashscreen": {
+      "target": "id:1",
+      "autoclose": true,
+      "waiting": true,
+      "delay": 0
+    },
+    "popGesture": "close",
+    "launchwebview": {
+      "id": "1",
+      "kernel": "WKWebview",
+      "uni-app": "auto"
+    },
+    "statusbar": {
+      "immersed": "supportedDevice",
+      "style": "dark",
+      "background": "#FFFFFF"
+    },
+    "usingComponents": true,
+    "distribute": {
+      "icons": {
+        "android": {
+          "hdpi": "C:/Users/lcf/Desktop/logo.png",
+          "xhdpi": "C:/Users/lcf/Desktop/logo.png",
+          "xxhdpi": "C:/Users/lcf/Desktop/logo.png",
+          "xxxhdpi": "C:/Users/lcf/Desktop/logo.png"
+        },
+        "ios": {
+          "appstore": "C:/Users/lcf/Desktop/logo.png",
+          "iphone": {
+            "app@2x": "C:/Users/lcf/Desktop/logo.png",
+            "app@3x": "C:/Users/lcf/Desktop/logo.png",
+            "spotlight@2x": "C:/Users/lcf/Desktop/logo.png",
+            "spotlight@3x": "C:/Users/lcf/Desktop/logo.png",
+            "settings@2x": "C:/Users/lcf/Desktop/logo.png",
+            "settings@3x": "C:/Users/lcf/Desktop/logo.png",
+            "notification@2x": "C:/Users/lcf/Desktop/logo.png",
+            "notification@3x": "C:/Users/lcf/Desktop/logo.png"
+          },
+          "ipad": {
+            "app": "C:/Users/lcf/Desktop/logo.png",
+            "app@2x": "C:/Users/lcf/Desktop/logo.png",
+            "proapp@2x": "C:/Users/lcf/Desktop/logo.png",
+            "spotlight": "C:/Users/lcf/Desktop/logo.png",
+            "spotlight@2x": "C:/Users/lcf/Desktop/logo.png",
+            "settings": "C:/Users/lcf/Desktop/logo.png",
+            "settings@2x": "C:/Users/lcf/Desktop/logo.png",
+            "notification": "C:/Users/lcf/Desktop/logo.png",
+            "notification@2x": "C:/Users/lcf/Desktop/logo.png"
+          }
+        }
+      },
+      "splashscreen": {
+        "android": {
+          "hdpi": "C:/Users/lcf/Desktop/logo.png",
+          "xhdpi": "C:/Users/lcf/Desktop/logo.png",
+          "xxhdpi": "C:/Users/lcf/Desktop/logo.png"
+        },
+        "ios": {
+          "iphone": {
+            "portrait-896h@3x": "C:/Users/lcf/Desktop/logo.png",
+            "landscape-896h@3x": "C:/Users/lcf/Desktop/logo.png",
+            "portrait-896h@2x": "C:/Users/lcf/Desktop/logo.png",
+            "landscape-896h@2x": "C:/Users/lcf/Desktop/logo.png",
+            "iphonex": "C:/Users/lcf/Desktop/logo.png",
+            "iphonexl": "C:/Users/lcf/Desktop/logo.png",
+            "retina55": "C:/Users/lcf/Desktop/logo.png",
+            "retina55l": "C:/Users/lcf/Desktop/logo.png",
+            "retina47": "C:/Users/lcf/Desktop/logo.png",
+            "retina47l": "C:/Users/lcf/Desktop/logo.png",
+            "retina40": "C:/Users/lcf/Desktop/logo.png",
+            "retina40l": "C:/Users/lcf/Desktop/logo.png",
+            "retina35": "C:/Users/lcf/Desktop/logo.png"
+          },
+          "ipad": {
+            "portrait-1366h@2x": "C:/Users/lcf/Desktop/logo.png",
+            "landscape-1366h@2x": "C:/Users/lcf/Desktop/logo.png",
+            "portrait-1194h@2": "C:/Users/lcf/Desktop/logo.png",
+            "landscape-1194h@2x": "C:/Users/lcf/Desktop/logo.png",
+            "portrait-1112h@2x": "C:/Users/lcf/Desktop/logo.png",
+            "landscape-1112h@2x": "C:/Users/lcf/Desktop/logo.png",
+            "portrait-retina7": "C:/Users/lcf/Desktop/logo.png",
+            "landscape-retina7": "C:/Users/lcf/Desktop/logo.png",
+            "portrait7": "C:/Users/lcf/Desktop/logo.png",
+            "landscape7": "C:/Users/lcf/Desktop/logo.png"
+          }
+        }
+      },
+      "google": {
+        "permissions": [
+          "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+          "<uses-permission android:name=\"android.permission.READ_CONTACTS\"/>",
+          "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+          "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+          "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_CONTACTS\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+          "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
+          "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+          "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
+          "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+          "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
+          "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
+          "<uses-feature android:name=\"android.hardware.camera\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
+        ]
+      },
+      "apple": {},
+      "plugins": {
+        "audio": {
+          "mp3": {
+            "description": "Android平台录音支持MP3格式文件"
+          }
+        }
+      }
+    },
+    "allowsInlineMediaPlayback": true,
+    "safearea": {
+      "background": "#FFFFFF",
+      "bottom": {
+        "offset": "auto"
+      }
+    },
+    "uni-app": {
+      "compilerVersion": "2.3.7",
+      "control": "v8",
+      "nvueCompiler": "weex",
+      "renderer": "auto"
+    },
+    "tabBar": {
+      "borderStyle": "rgba(0,0,0,0.4)",
+      "backgroundColor": "#FFFFFF",
+      "color": "#8F8F94",
+      "selectedColor": "#f33e54",
+      "list": [
+        {
+          "pagePath": "pages/tabBar/index/index",
+          "iconPath": "static/img/tabbar/home.png",
+          "selectedIconPath": "static/img/tabbar/homeactive.png",
+          "text": "首页"
+        },
+        {
+          "pagePath": "pages/tabBar/news/news",
+          "iconPath": "static/img/tabbar/news.png",
+          "selectedIconPath": "static/img/tabbar/newsactive.png",
+          "text": "消息"
+        },
+        {
+          "pagePath": "pages/tabBar/mine/mine",
+          "iconPath": "static/img/tabbar/me.png",
+          "selectedIconPath": "static/img/tabbar/meactive.png",
+          "text": "我"
+        }
+      ],
+      "height": "50px",
+      "child": [
+        "lauchwebview"
+      ],
+      "selected": 0
+    }
+  }
+}

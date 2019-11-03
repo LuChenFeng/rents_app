@@ -1,0 +1,73 @@
+.page.data-v-df8f8246 {
+
+	height: auto;
+}
+.uni-common-mt.data-v-df8f8246 {
+	margin-top: 0;
+}
+.columnBelowList.data-v-df8f8246 {
+	display: -webkit-box;
+	width: 100%;
+}
+.uni-media-list-logo.data-v-df8f8246 {
+	height: 10vh;
+	width: 10vh;
+}
+.centerHeight.data-v-df8f8246 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.uni-media-list-body.data-v-df8f8246 {
+	left: 2%;
+}
+.belowText.data-v-df8f8246,
+.belowTextSon.data-v-df8f8246 {
+	left: 2%;
+}
+.belowText.data-v-df8f8246 {
+	width: 100%;
+	height: auto;
+}
+.houseImg.data-v-df8f8246 {
+	width: 33%;
+	float: left;
+	margin: 0;
+}
+.bottomselect.data-v-df8f8246 {
+	position: fixed;
+	bottom: 0%;
+	height: 7%;
+	width: 100%;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	background: #FFFFFF;
+}
+.bottomselectSon.data-v-df8f8246 {
+	margin: 0 3vw;
+}
+.bottomselectSonBtn.data-v-df8f8246 {
+	height: 60%;
+	/* border-radius: 40%; */
+	border: solid #FFCCCC 1px;
+	background-color: #FFcccc;
+	color: #3B4144;
+	margin: 0 3vw;
+	font-size: small;
+}
+

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "chat-message": "/components/chat-message/chat-message",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}

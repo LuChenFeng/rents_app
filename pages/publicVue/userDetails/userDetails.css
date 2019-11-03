@@ -1,0 +1,53 @@
+.text {
+	margin: 16upx 0;
+	width: 100%;
+	background-color: #fff;
+	height: 120upx;
+	line-height: 120upx;
+	text-align: center;
+	color: #555;
+	border-radius: 8upx;
+}
+
+.imagesize {
+
+	width: 22vw;
+	height: 22vw;
+}
+
+/* 懒加载
+	 */
+
+.placeholder {
+	opacity: 1;
+	transition: opacity 0.4s linear;
+}
+
+.placeholder.loaded {
+	opacity: 0;
+}
+
+.uni-media-list-logo {
+	position: relative;
+}
+
+.uni-media-list-logo .image {
+	position: absolute;
+}
+
+
+.addRoommate {
+	z-index: 99;
+	background-color: #FFCCCC;
+}
+.headInfo {
+    top: 1%;
+}
+.belowText,
+.belowTextSon {
+	left: -1%;
+}
+.belowText {
+	width: 100%;
+	height: auto;
+}
