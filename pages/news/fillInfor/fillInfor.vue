@@ -24,7 +24,7 @@
 			</view>
 		</view>
 		
-		<view @tap="showMulLinkageTwoPicker">点击选择我所在城市：
+		<view @tap="showMulLinkageTwoPicker" style="color: #F76260; font-weight: 400;">点击选择我所在城市：
 			{{city}}
 		</view>
 		<mpvue-picker :themeColor="themeColor" ref="mpvuePicker" :mode="mode" :deepLength="deepLength" :pickerValueDefault="pickerValueDefault"
@@ -46,11 +46,20 @@
 				</uni-grid>
 			</checkbox-group>
 		</view>
-		<button class="next" type="primary" @tap="submitForum" style="margin-bottom: 15%; background-color:#99CC99;">保存</button>
+		<button class="next" type="primary" @tap="togglePopup('center', 'tip')" style="margin-bottom: 15%; background-color:#99CC99;">保存</button>
 
+		<uni-popup :show="show" :type="type" :custom="true" :mask-click="false" @change="change">
+			<view class="uni-tip">
+				<view class="uni-tip-title">提示</view>
+				<view class="uni-tip-content">平台将会为你匹配同城的室友，再次确认你所在的城市为：{{city}}</view>
+				<view class="uni-tip-group-button">
+					<view class="uni-tip-button" @click="cancel('no')">取消</view>
+					<view class="uni-tip-button" @click="cancel('yes')">确定</view>
+				</view>
+			</view>
+		</uni-popup>
 		<!-- 选择按钮 -->
-		<view class="uni-flex uni-row rowUpper">
-			<!-- @tap="findOrHaveRoom" -->
+<!-- 		<view class="uni-flex uni-row rowUpper">
 			<view class="flex-item  rowUpperList1">
 				<view class="upperIT">
 					<view class="upperText upperText1">我的特点</view>
@@ -62,7 +71,7 @@
 					<view class="upperText upperText2">理想房子</view>
 				</view>
 			</view>
-		</view>
+		</view> -->
 
 	</view>
 

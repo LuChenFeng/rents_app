@@ -39,11 +39,22 @@
 			<view class="content"  >
 			    <view class="btn-row">
 			        <button v-show="!hasLogin" type="primary" class="primary" @tap="bindLogin">登录</button>
-			        <button v-show="hasLogin" type="default" @tap="bindLogout">退出登录</button>
+			        <button v-show="hasLogin" type="default" @tap="togglePopup('center', 'tip')">退出登录</button>
 			    </view>
 			</view>
+	
 			
 		</view>
+		<uni-popup :show="show" :type="type" :custom="true" :mask-click="false" @change="change">
+			<view class="uni-tip">
+				<view class="uni-tip-title">警告</view>
+				<view class="uni-tip-content">确定退出登入吗</view>
+				<view class="uni-tip-group-button">
+					<view class="uni-tip-button" @click="cancel('no')">取消</view>
+					<view class="uni-tip-button" @click="cancel('yes')">确定</view>
+				</view>
+			</view>
+		</uni-popup>
 	</view>
 
 

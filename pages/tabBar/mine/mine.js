@@ -1,8 +1,10 @@
 import uniIcon from '@/components/uni-icon/uni-icon.vue'
+import uniPopup from '@/components/uni-popup/uni-popup.vue'
 var self
 export default {
 	components: {
-		uniIcon
+		uniIcon,
+		uniPopup
 	},
 	computed: {
 		forcedLogin() {
@@ -20,7 +22,10 @@ export default {
 			showSwiper: false,
 			imgUrls: [
 				'/static/img/mine/img2.png'
-			]
+			],
+			// 弹窗
+			show: false,
+			type: '',
 		}
 	},
 	onLoad() {
@@ -34,8 +39,8 @@ export default {
 			})
 		},
 		// 历史发布页面
-		
-		minePosts(){
+
+		minePosts() {
 			uni.navigateTo({
 				url: '/pages/mine/minePosts/minePosts'
 			})
@@ -58,7 +63,23 @@ export default {
 					url: '/pages/login/login',
 				});
 			}
+		},
+		togglePopup(type, open) {
+			this.content = '居中弹出 popup'
+			this.type = type
+			this.show = true
+		},
+		cancel(type) {
+			if (type === 'no') {
+				this.show = false
+				return
+			} else {
+				this.bindLogout()
+				this.show = false
+			}
+		},
+		change(e) {
+			console.log(e.show)
 		}
-
 	}
 }

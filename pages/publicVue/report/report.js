@@ -242,6 +242,8 @@ export default {
 						title: `举报成功，等待管理员审核`,
 						icon: 'none'
 					})
+					self.pickerText=''
+					self.reportText=''
 				}else{
 					uni.showToast({
 						title: `信息提交失败`,

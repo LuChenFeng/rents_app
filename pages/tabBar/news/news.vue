@@ -2,8 +2,8 @@
 	<view class="uni-padding-wrap uni-common-mt page">
 
 		<!-- 上部分········································ -->
-		<view class="uni-flex uni-row rowUpper" v-show="hasLogin">
-			<!-- @tap="findOrHaveRoom" -->
+<!-- 		<view class="uni-flex uni-row rowUpper" v-show="hasLogin">
+	
 			<view class="flex-item  rowUpperList1">
 				<view class="upperIT">
 					<view class="upperText upperText1">消息</view>
@@ -15,7 +15,7 @@
 					<view class="upperText upperText2"> 预约</view>
 				</view>
 			</view>
-		</view>
+		</view> -->
 
 		<!-- 下部分········································ -->
 

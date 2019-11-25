@@ -68,12 +68,12 @@ export default {
 
 	},
 	// 返回按钮
-	onBackPress(e) {
-		uni.switchTab({
-			url: '/pages/tabBar/news/news'
-		});
-		return true
-	},
+	// onBackPress(e) {
+	// 	uni.switchTab({
+	// 		url: '/pages/tabBar/news/news'
+	// 	});
+	// 	return true
+	// },
 
 	// 下拉刷新
 	onPullDownRefresh() {

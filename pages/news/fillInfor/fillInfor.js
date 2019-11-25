@@ -3,6 +3,7 @@ import uniGridItem from '@/components/uni-grid-item/uni-grid-item.vue'
 import mpvuePicker from '../../../components/mpvue-picker/mpvuePicker.vue'
 import cityData from '../../../common/city.data.js'
 import global from '../../../common/common.vue'
+import uniPopup from '@/components/uni-popup/uni-popup.vue'
 import {
 	putUserStyle,
 	upDateUserStyle
@@ -22,7 +23,8 @@ export default {
 	components: {
 		mpvuePicker,
 		uniGrid,
-		uniGridItem
+		uniGridItem,
+		uniPopup
 	},
 	data() {
 		let sliderKey = -1
@@ -137,7 +139,10 @@ export default {
 					checked: false
 				}
 			],
-			sliderKey
+			sliderKey,
+			// 弹窗
+			show: false,
+			type: '',
 		}
 	},
 	onLoad(e) {
@@ -250,6 +255,23 @@ export default {
 				title: '保存成功',
 				icon: 'none'
 			})
+		},
+		togglePopup(type, open) {
+			this.content = '居中弹出 popup'
+			this.type = type
+			this.show = true
+		},
+		cancel(type) {
+			if (type === 'no') {
+				this.show = false
+				return
+			} else {
+				this.submitForum()
+				this.show = false
+			}
+		},
+		change(e) {
+			console.log(e.show)
 		}
 	}
 }

@@ -287,9 +287,9 @@ export default {
 				return
 			} else {
 				console.log("确定提交")
-				if (!this.hasLocation) {
+				if (!this.hasLocation ||this.putMessage.price<=0 ||this.putMessage.title=="") {
 					uni.showToast({
-						title: `请定位地址`,
+						title: `请填写：标题、价格、定位地址`,
 						icon: 'none'
 					})
 					return
@@ -312,9 +312,10 @@ export default {
 				console.log(JSON.stringify(res))
 				if (res[1].data.code == 200) {
 					uni.showToast({
-						title: `发布成功,等待管理员审核`,
+						title: `发布成功`,
 						icon: 'none'
 					})
+					self.gotoIndex();//返回到主页
 					// self.infoReset()
 				} else {
 					uni.showToast({
@@ -339,6 +340,12 @@ export default {
 				"contents": "",
 				"postsImgs": []
 			}
+		},
+		// 路由跳转
+		gotoIndex(){
+			uni.switchTab({
+				url: '/pages/tabBar/index/index'
+			})
 		},
 		change(e) {
 			console.log(e.show)

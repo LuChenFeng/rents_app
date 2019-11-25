@@ -37,6 +37,12 @@ export default {
 		}
 	},
 	methods: {
+		// 实名
+		realName(){
+			uni.navigateTo({
+				url: '/pages/mine/realName/realName'
+			})
+		},
 		// 选择性别
 		selectSex(sex) {
 			this.userInfo.sex = sex

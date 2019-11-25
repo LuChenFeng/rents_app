@@ -12,31 +12,31 @@
 		<!-- 上部分········································ -->
 		<view class="uni-flex uni-row rowUpper" v-show="hasLogin">
 			<!-- @tap="findOrHaveRoom" -->
-			<view class="flex-item  rowUpperList1" @tap="findOrHaveRoom">
+			<view class="flex-item  rowUpperList1" @tap="haveRoom">
 				<view class="upperIT">
 					<image class="upperImg" src="/static/img/index/index1.png"></image>
 					<!-- <text>\n我找/有房间</text> -->
-					<view class="upperText upperText1"><text class="upperTextsize">我找/有房间</text></view>
+					<view class="upperText upperText1"><text class="upperTextsize">我有房间</text></view>
 				</view>
 			</view>
 
 
-			<view class="flex-item  rowUpperList2" @tap="rentedRomm">
+			<view class="flex-item  rowUpperList2" @tap="findRoom">
 				<view class="upperIT">
 					<image class="upperImg" src="/static/img/index/index2.png"></image>
-					<view class="upperText upperText2"> 我已租到房</view>
+					<view class="upperText upperText2"> 我找房间</view>
 				</view>
 			</view>
 
 		</view>
 		<!-- 下部分········································ -->
 		<view class="uni-flex uni-column columnBelow" v-show="hasLogin">
-			<view class="flex-item flex-item-V  columnBelowList1" @tap="lookForTenant">
+			<view class="flex-item flex-item-V  columnBelowList1" @tap="costSharing">
 				<view class="columnBelowListView">
 					<view class="belowStrip belowStripColor1"></view>
 
 					<uni-icon :type="'contact'" class="belowIcon" :color="'#469f94'" size="20" />
-					<view class="belowText">我是房东，我选租客</view>
+					<view class="belowText">我的出差记录</view>
 					<uni-icon :type="'arrowright'" class="jianTou" :color="'#666666'" size="20" />
 				</view>
 			</view>
