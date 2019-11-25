@@ -252,6 +252,13 @@
 			"style": {
 				"navigationBarTitleText": "发布历史"
 			}
+		},
+		// 实名
+		{
+			"path": "pages/mine/realName/realName",
+			"style": {
+				"navigationBarTitleText": "实名"
+			}
 		}
 
 	],
