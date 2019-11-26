@@ -15,7 +15,8 @@ import {
 	PutReportImg,
 	PostsReport,
 	UserInfo,
-	UserInfoStyle
+	UserInfoStyle,
+	RentsOut
 } from '@/common/config.js'
 export function addToRedisByData(data) {
 	console.log("执行了addToRedis")
@@ -63,7 +64,7 @@ export function putPostsInfo(data) {
 }
 
 // 联级删除帖子
-export function delPostsInfoById(data){
+export function delPostsInfoById(data) {
 	return uni.request({
 		url: PonstsInfo + '?id=' + data,
 		method: "DELETE"
@@ -183,7 +184,7 @@ export function delPostsReplyById(data) {
 	})
 }
 
-export function addPostsReport(data){
+export function addPostsReport(data) {
 	return uni.request({
 		url: PostsReport,
 		data: data,
@@ -229,9 +230,40 @@ export function updataUserInfoById(data) {
 	})
 }
 
-export function userInfoStyleById(data){
+export function userInfoStyleById(data) {
 	return uni.request({
 		url: UserInfoStyle + '?id=' + data,
 		method: "GET"
+	})
+}
+/**
+ * @param {Object} data
+ * y用户出差查找
+ */
+export function getUserOutsByMonth(data){
+	return uni.request({
+		
+		url: RentsOut + '?date=' + data.date +'&userInfoId='+data.userInfoId,
+		method: "GET"
+	})
+}
+
+// 出差信息添加
+export function addUserOuts(data) {
+	return uni.request({
+		url: RentsOut,
+		data: data,
+		method: "POST",
+		header: {
+			'content-type': 'application/json'
+		},
+	})
+}
+
+// 出差信息删除
+export function delUserOut(data) {
+	return uni.request({
+		url: RentsOut + '?id=' + data,
+		method: "DELETE"
 	})
 }

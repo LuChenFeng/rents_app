@@ -65,6 +65,9 @@ export const PostsReply=ApiUrl+"forum/postsReply"
 // 帖子举报
 export const PostsReport=ApiUrl+"forum/postsReport"
 
+// 出差日历
+export const RentsOut=ApiUrl+"user/userOuts"
+
 export default {
 	SocketUrl,
 	ChatUrl,
@@ -88,6 +91,7 @@ export default {
 	PostsReply,
 	PostsReport,
 	UserInfo,
-	UserInfoStyle
+	UserInfoStyle,
+	RentsOut
 
 }
