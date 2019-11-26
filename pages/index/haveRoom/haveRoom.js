@@ -7,7 +7,11 @@ export default {
 	components: {
 		uniIcon
 	},
-
+	computed: {
+		loginUserInfo(){
+			return this.$store.getters.getLoginUserInfo
+		}
+	},
 	data() {
 		return {
 			postsType: [],
@@ -42,6 +46,13 @@ export default {
 		},
 		// 点击发布
 		submitForum: function() {
+			if(this.loginUserInfo.hasRealName==0){
+				uni.showToast({
+					title: `实名后才可使用该功能,请显示名`,
+					icon: 'none'
+				})
+				return
+			}
 			console.log(this.postsType)
 			if(this.selectTypeId==''){
 				uni.showToast({

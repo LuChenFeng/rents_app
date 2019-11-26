@@ -6,10 +6,15 @@ export default {
 	components: {
 		uniIcon
 	},
+	computed: {
+		loginUserInfo() {
+			return this.$store.getters.getLoginUserInfo
+		}
+	},
 	data() {
 		return {
 			postsType: [],
-				selectTypeId:''
+			selectTypeId: ''
 		}
 	},
 	created() {
@@ -35,21 +40,28 @@ export default {
 			});
 		},
 		submitForum: function() {
-		console.log(this.postsType)
-		if(this.selectTypeId==''){
-			uni.showToast({
-				title: `选择帖子类型`,
-				icon: 'none'
-			});
-			return
-		}
-		console.log(this.selectTypeId)
-		uni.navigateTo({
-			url: '/pages/index/submitForum/submitForum?postTypeId='+this.selectTypeId
-		})
+			if (this.loginUserInfo.hasRealName == 0) {
+				uni.showToast({
+					title: `实名后才可使用该功能,请显示名`,
+					icon: 'none'
+				})
+				return
+			}
+			console.log(this.postsType)
+			if (this.selectTypeId == '') {
+				uni.showToast({
+					title: `选择帖子类型`,
+					icon: 'none'
+				});
+				return
+			}
+			console.log(this.selectTypeId)
+			uni.navigateTo({
+				url: '/pages/index/submitForum/submitForum?postTypeId=' + this.selectTypeId
+			})
 		},
-		selectRadio(typeId){
-			this.selectTypeId=typeId
+		selectRadio(typeId) {
+			this.selectTypeId = typeId
 		}
 	}
 }

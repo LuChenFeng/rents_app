@@ -153,8 +153,5 @@ export default {
 		retract() {
 			this.infoShow = !this.infoShow
 		},
-
-
-
 	}
 }

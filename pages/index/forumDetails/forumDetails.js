@@ -176,6 +176,13 @@ export default {
 		},
 		// 添加回复
 		addReply(id) {
+			if (this.loginUserInfo.hasRealName == 0) {
+				uni.showToast({
+					title: `实名后才可使用该功能,请显示名`,
+					icon: 'none'
+				})
+				return
+			}
 			this.content = '底部弹出 popup'
 			this.type = 'center'
 			this.showChangeAdd = true
@@ -184,6 +191,13 @@ export default {
 		},
 	//添加评论
 		comment(type, open) {
+			if (this.loginUserInfo.hasRealName == 0) {
+				uni.showToast({
+					title: `实名后才可使用该功能,请显示名`,
+					icon: 'none'
+				})
+				return
+			}
 			debugger
 			this.content = '底部弹出 popup'
 			this.type = 'center'

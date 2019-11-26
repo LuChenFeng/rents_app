@@ -221,6 +221,13 @@ export default {
 			return status;
 		},
 		submitReport() {
+			if (this.loginUserInfo.hasRealName == 0) {
+				uni.showToast({
+					title: `实名后才可使用该功能,请显示名`,
+					icon: 'none'
+				})
+				return
+			}
 			if(this.pickerText=='' || this.pickerText==null){
 				uni.showToast({
 					title: `请选择举报原因`,

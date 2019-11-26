@@ -173,6 +173,13 @@ export default {
 
 		//  发送信息
 		sendText() {
+			if(this.loginUserInfo.hasRealName==0){
+				uni.showToast({
+					title: `实名后才可使用该功能,请显示名`,
+					icon: 'none'
+				})
+				return
+			}
 			console.log(this.loginUserInfo)
 			if (this.textMsg === '') return
 			let text = this.textMsg

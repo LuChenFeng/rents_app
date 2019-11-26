@@ -29,7 +29,7 @@
 					<view class="belowIcon belowIconColor3">实名</view>
 					<view class="belowText uni-textarea">
 						{{loginUserInfo.hasRealName==0?"未实名":"已实名"}}
-						<button type="primary" v-show="loginUserInfo.hasRealName==0" @tap="realName">点击进入实名认证</button>
+						<view v-show="loginUserInfo.hasRealName==0" @tap="realName">点击进入实名认证</view>
 					</view>
 				</view>
 			</view>
