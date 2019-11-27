@@ -8,6 +8,7 @@
 			 @change="change" @month-switch	="monthSwitch" :mode="2"  />
 			<button @click="reckon" class="reckonbtn">{{ timeData.clockinfo.have ? '在家' : '出差' }}</button>
 			<view>出差:{{selected.length}}天</view>
+			<view>提示：目前只支持记录当月记录，如有需要可截图保存</view>
 		</view>
 		
 

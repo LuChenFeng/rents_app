@@ -42,7 +42,7 @@ export default {
 		submitForum: function() {
 			if (this.loginUserInfo.hasRealName == 0) {
 				uni.showToast({
-					title: `实名后才可使用该功能,请显示名`,
+					title: `实名后才可使用该功能,请先实名`,
 					icon: 'none'
 				})
 				return
