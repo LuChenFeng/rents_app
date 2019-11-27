@@ -101,7 +101,7 @@
 		{
 			"path": "pages/index/forum/forum",
 			"style": {
-				"navigationBarTitleText": "论坛中心",
+				"navigationBarTitleText": "资源中心",
 				"enablePullDownRefresh": true,
 				"onReachBottomDistance": 50,
 				"app-plus": {
@@ -153,24 +153,24 @@
 		{
 			"path": "pages/index/costSharing/costSharing",
 			"style": {
-				"navigationBarTitleText": "费用分摊",
-				"app-plus": {
-					"titleNView": {
+				"navigationBarTitleText": "费用分摊"
+				// "app-plus": {
+				// 	"titleNView": {
 
-						"titleColor": "#000",
-						"backgroundColor": "#FFFFFF",
+				// 		"titleColor": "#000",
+				// 		"backgroundColor": "#FFFFFF",
 
-						"buttons": [{
-							"fontSrc": "/static/uni.ttf",
-							"text": "\ue502",
-							"width": "40px",
-							"fontSize": "28px",
-							"color": "#000",
-							"background": "rgba(0,0,0,0)"
-						}]
+				// 		"buttons": [{
+				// 			"fontSrc": "/static/uni.ttf",
+				// 			"text": "\ue502",
+				// 			"width": "40px",
+				// 			"fontSize": "28px",
+				// 			"color": "#000",
+				// 			"background": "rgba(0,0,0,0)"
+				// 		}]
 
-					}
-				}
+				// 	}
+				// }
 			}
 		},
 
