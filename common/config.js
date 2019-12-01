@@ -20,7 +20,7 @@ export const PushUrl= ChatUrl+'chat/push'
  
  //数据传输Api 前缀
  export const ApiUrl='http://47.102.192.121:8000/rents/'
- 
+  // export const ApiUrl='http://192.168.3.2:8000/rents/'
  // 用户登入
  export const UserLogin=ApiUrl+'user/userLoginByAppInfo'
  //用户注册
@@ -68,6 +68,8 @@ export const PostsReport=ApiUrl+"forum/postsReport"
 // 出差日历
 export const RentsOut=ApiUrl+"user/userOuts"
 
+export const RealNameUpLoadImg=ApiUrl+"admin/realNameUpLoadImg"
+export const RealName=ApiUrl+"admin/realName"
 export default {
 	SocketUrl,
 	ChatUrl,
@@ -92,6 +94,8 @@ export default {
 	PostsReport,
 	UserInfo,
 	UserInfoStyle,
-	RentsOut
+	RentsOut,
+	RealNameUpLoadImg,
+	RealName
 
 }

@@ -16,7 +16,9 @@ import {
 	PostsReport,
 	UserInfo,
 	UserInfoStyle,
-	RentsOut
+	RentsOut,
+	RealNameUpLoadImg,
+	RealName
 } from '@/common/config.js'
 export function addToRedisByData(data) {
 	console.log("执行了addToRedis")
@@ -230,6 +232,14 @@ export function updataUserInfoById(data) {
 	})
 }
 
+//获取用户信息
+export function getUserInfoById(data){
+	return uni.request({
+		url: UserInfo + '?id=' + data,
+		method: "GET"
+	})
+}
+
 export function userInfoStyleById(data) {
 	return uni.request({
 		url: UserInfoStyle + '?id=' + data,
@@ -265,5 +275,30 @@ export function delUserOut(data) {
 	return uni.request({
 		url: RentsOut + '?id=' + data,
 		method: "DELETE"
+	})
+}
+
+//上传身份证信息
+export function realNameUpLoadImg(imgs) {
+	return uni.uploadFile({
+		url: RealNameUpLoadImg,
+		files: imgs,
+		header: {
+			"Content-Type": "multipart/form-data"
+		},
+		formData: {
+			'user': 'test'
+		}
+	})
+}
+//提交实名
+export function addRealName(data) {
+	return uni.request({
+		url: RealName,
+		data: data,
+		method: "POST",
+		header: {
+			'content-type': 'application/json'
+		},
 	})
 }
