@@ -45,15 +45,17 @@ export default {
 			isHistory: true,
 			list: [],
 			flng: true,
-			timer: null
+			timer: null,
+			infoStyle:0
 		};
 	},
-	onLoad() {
+	onLoad(e) {
 		// 本示例用的是高德 sdk ，请根据具体需求换成自己的服务器接口。
 		this.amapPlugin = util.mapInit();
 		console.log(this.amapPlugin);
 		this.historyList = uni.getStorageSync('search:history');
 		console.log(this.historyList);
+		this.infoStyle = parseInt(e.infoStyle)
 	},
 	methods: {
 		/**
@@ -70,7 +72,9 @@ export default {
 				// 去做一些相关搜索功能 ，这里直接返回到上一个页面
 				// 点击列表存储搜索数据
 				util.setHistory(item);
-				uni.navigateBack();
+				uni.navigateTo({
+					url: '/pages/index/forum/forum?infoStyle=' + this.infoStyle +'&likeStr='+item.name
+				});
 			}
 		},
 		/**

@@ -41,7 +41,8 @@
 					<view class="uni-media-list-text-bottom uni-ellipsis belowTextSon">位置（点击可查看地图）</view>
 					<view class="belowText">
 						<uni-icon type="location" color="rgb(153, 204, 153);" size="20" />
-						<text style="color:rgb(153, 204, 153);">{{postList.postsInfo.locationName}}</text>
+						<text style="color:rgb(153, 204, 153);">{{postList.postsInfo.locationName}}</text><br/>
+						<text style="color: #666666;">详细地址:{{postList.postsInfo.locationAddress}}</text>
 					</view>
 				</view>
 

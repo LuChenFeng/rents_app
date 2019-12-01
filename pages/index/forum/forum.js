@@ -64,6 +64,9 @@ export default {
 		}
 		this.setStyle(0, global.city[1])
 		this.infoStyle = parseInt(e.infoStyle)
+		if(e.likeStr){
+			this.likeStr=e.likeStr
+		}
 		// this.initData();
 		this.setDate()
 	},
@@ -116,7 +119,7 @@ export default {
 	onNavigationBarSearchInputClicked(e) {
 		console.log('事件执行了')
 		uni.navigateTo({
-			url: '/pages/index/forum/detail/detail?'
+			url: '/pages/index/forum/detail/detail?infoStyle='+this.infoStyle
 		});
 	},
 	/**
