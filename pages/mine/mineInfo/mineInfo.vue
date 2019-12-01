@@ -14,13 +14,15 @@
 			<view class="flex-item flex-item-V  columnBelowList">
 				<view class="columnBelowListView">
 					<view class="belowIcon belowIconColor3">性别</view>
-					<radio-group class="belowText">
+					<radio-group class="belowText" v-show="loginUserInfo.hasRealName==0">
 						<label class="radio">
 							<radio value="0" :checked="loginUserInfo.sex=='男'" @tap="selectSex('男')" />男</label>
 						<label class="radio">
 							<radio value="1" id="2" :checked="loginUserInfo.sex=='女'" @tap="selectSex('女')" />女</label>
-
 					</radio-group>
+					<view class="belowText uni-textarea" v-show="loginUserInfo.hasRealName==1">
+						{{loginUserInfo.sex}}
+					</view>
 				</view>
 			</view>
 
@@ -44,8 +46,11 @@
 			<view class="flex-item flex-item-V  columnBelowList  ">
 				<view class="columnBelowListView ">
 					<view class="belowIcon belowIconColor3">生日</view>
-					<view class="belowText uni-textarea">
+					<view class="belowText uni-textarea" v-show="loginUserInfo.hasRealName==0">
 						<dyDate @getData="getData" placeholder="请选择日期" maxSelect="2002/12/31"></dyDate>
+					</view>
+					<view class="belowText uni-textarea" v-show="loginUserInfo.hasRealName==1">
+						{{loginUserInfo.birthady}}
 					</view>
 				</view>
 			</view>
