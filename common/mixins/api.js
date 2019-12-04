@@ -18,7 +18,8 @@ import {
 	UserInfoStyle,
 	RentsOut,
 	RealNameUpLoadImg,
-	RealName
+	RealName,
+	UpDatePwd
 } from '@/common/config.js'
 export function addToRedisByData(data) {
 	console.log("执行了addToRedis")
@@ -295,6 +296,18 @@ export function realNameUpLoadImg(imgs) {
 export function addRealName(data) {
 	return uni.request({
 		url: RealName,
+		data: data,
+		method: "POST",
+		header: {
+			'content-type': 'application/json'
+		},
+	})
+}
+
+//修改密码
+export function updateUserPwd(data) {
+	return uni.request({
+		url: UpDatePwd,
 		data: data,
 		method: "POST",
 		header: {

@@ -70,6 +70,8 @@ export const RentsOut=ApiUrl+"user/userOuts"
 
 export const RealNameUpLoadImg=ApiUrl+"admin/realNameUpLoadImg"
 export const RealName=ApiUrl+"admin/realName"
+//修改密码
+export const  UpDatePwd=ApiUrl+"/user/userPwd"
 export default {
 	SocketUrl,
 	ChatUrl,
@@ -96,6 +98,7 @@ export default {
 	UserInfoStyle,
 	RentsOut,
 	RealNameUpLoadImg,
-	RealName
+	RealName,
+	UpDatePwd
 
 }
