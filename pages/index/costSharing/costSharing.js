@@ -142,9 +142,7 @@ export default {
 			_self.infoShow = true
 
 		},
-		monthSwitch(e){
-			console.log(e)
-		},
+
 		confirm(e) {
 			console.log('confirm 返回:', e)
 			this.timeData = e

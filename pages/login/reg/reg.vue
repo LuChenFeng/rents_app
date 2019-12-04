@@ -10,8 +10,8 @@
 				<m-input type="password" displayable v-model="password" placeholder="请输入密码"></m-input>
 			</view>
 			<view class="input-row">
-				<text class="title">邮箱：</text>
-				<m-input type="text" clearable v-model="email" placeholder="请输入邮箱"></m-input>
+				<text class="title">电话：</text>
+				<m-input type="text" clearable v-model="tel" placeholder="请输入联系电话"></m-input>
 			</view>
 		</view>
 		<view class="btn-row">
@@ -34,7 +34,7 @@
 			return {
 				account: '',
 				password: '',
-				email: ''
+				tel: ''
 			}
 		},
 		methods: {
@@ -43,10 +43,10 @@
 				 * 客户端对账号信息进行一些必要的校验。
 				 * 实际开发中，根据业务需要进行处理，这里仅做示例。
 				 */
-				if (this.account.length < 5) {
+				if (this.account.length < 6) {
 					uni.showToast({
 						icon: 'none',
-						title: '账号最短为 5 个字符'
+						title: '账号最短为 6 个字符'
 					});
 					return;
 				}
@@ -57,10 +57,11 @@
 					});
 					return;
 				}
-				if (this.email.length < 3 || !~this.email.indexOf('@')) {
+				
+				if (!RegExp(/^((1[3,5,8][0-9])|(14[5,7])|(17[0,6,7,8])|(19[7]))\d{8}$/).test(this.tel)) {
 					uni.showToast({
 						icon: 'none',
-						title: '邮箱地址不合法'
+						title: '联系方式不合法'
 					});
 					return;
 				}
@@ -70,7 +71,8 @@
 					userTypeName: "会员用户",
 					loginName: this.account,
 					password: this.password,
-					userName: this.account
+					userName: this.account,
+					tel:this.tel
 				}
 				userRegisteredByAppInfo(data).then(res => {
 					if (res[1].data.code == 450) {
