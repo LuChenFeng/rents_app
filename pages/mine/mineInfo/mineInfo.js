@@ -52,9 +52,16 @@ export default {
 			this.userInfo.birthady=e
 		},
 		submitUserInfo(){
-			if(this.userInfo.userName=='' ||this.userInfo.birthady=='' || this.userInfo.tel==''){
+			if(this.userInfo.birthady=='' && this.loginUserInfo.hasRealName==0){
 				uni.showToast({
-					title: `昵称、电话、生日 为必填项`,
+					title: `生日必填项`,
+					icon: 'none'
+				})
+				return
+			}
+			if(this.userInfo.userName==''  || this.userInfo.tel==''){
+				uni.showToast({
+					title: `昵称、电话、必填项`,
 					icon: 'none'
 				})
 				return
