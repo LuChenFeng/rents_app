@@ -1,10 +1,10 @@
 
 //webSocket地址
-export const SocketUrl='ws://47.102.192.121:8080/chat/'
+export const SocketUrl='ws://47.102.192.121:8100/chat/'
 // export const SocketUrl='ws://192.168.3.38:8080/chat/'
 
 //聊天api 前缀地址
-export const ChatUrl='http://47.102.192.121:8080/'
+export const ChatUrl='http://47.102.192.121:8100/'
 // export const ChatUrl='http://192.168.3.38:8080/'
 //把用户添加到Redis聊天列表中
 export const addToRedisUrl=ChatUrl+'chat/addToRedis'
