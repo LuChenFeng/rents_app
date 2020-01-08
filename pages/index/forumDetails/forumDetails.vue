@@ -121,7 +121,7 @@
 				<uni-icon type="chat" color="rgb(153, 204, 153);" size="20" />留言
 				<uni-popup :show="showChangeAdd" :type="type" :custom="true" :mask-click="false" @change="change">
 					<view class="uni-tip">
-						<view class="uni-tip-title">请输入名称</view>
+						<view class="uni-tip-title">请输入留言</view>
 						<view class="uni-tip-content">
 							<input maxlength="50" autocomplete="off" class="uni-input " placeholder="输入留言,最多50个字符" style="width:100%; text-align: center;"
 							 v-model="addPostsComment" />

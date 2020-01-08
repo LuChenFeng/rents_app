@@ -132,7 +132,9 @@ export default {
 			console.log('change 返回:', e)
 
 			_self.timeData = e
-			_self.selectedThisDay = e.year + '-' + e.month + '-' + e.date
+			let month=e.month
+			let date=e.date
+			_self.selectedThisDay = e.year + '-' + month.toString().padStart(2,'0') + '-' + date.toString().padStart(2,'0')
 			let data = {
 				date: _self.selectedThisDay,
 				userInfoId: this.loginUserInfo.id,
